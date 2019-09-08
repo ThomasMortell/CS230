@@ -1,0 +1,39 @@
+.Mainheader {
+  text-align: center;
+}
+
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.entry {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+button {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  background-color: #4CAF50;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+}
