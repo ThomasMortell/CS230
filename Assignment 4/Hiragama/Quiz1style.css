@@ -1,0 +1,233 @@
+body{
+  background-color: rgb(54, 182, 210);
+  background-size:cover;
+  font-family:sans-serif;
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(54, 182, 210);
+  border:2px solid white;
+  border-radius:3px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+#question-holder{
+  border:2px solid white;
+  margin:auto;
+  padding:5px;
+  text-align:auto;
+  max-width:60%;
+  position:relative;
+  background-color: rgb(54, 182, 210);
+  border-radius:3px;
+}
+#intro{
+  font-family:Helvetica;
+  color:white;
+  padding:5px;
+  text-align:left;
+}
+h1{
+  font-family:Helvetica;
+  color:white;
+  padding:5px;
+  text-align:center;
+}
+h3{
+  font-family:Helvetica;
+  color:white;
+  padding:5px;
+  text-align:left;
+}
+h6{
+  font-family:Helvetica;
+  color:white;
+  padding:5px;
+  text-align:center;
+}
+#questions{
+  font-family:Helvetica;
+  color:white;
+  padding:5px;
+  text-align:left;
+}
+.wrap{
+  background-color:#ee9847;
+  margin:10%;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius:3px;
+  color:white;
+  font-family:Helvetica;
+}
+#btn{
+
+  border:3px solid white;
+  border-radius:3px;
+  color:white;
+  background-color:#ee9847;
+    padding: 20px 40px;
+  text-align: center;
+  font-size: 24px;
+  cursor:pointer;
+  margin-left:40%;
+}
+#btn:hover{
+  background-color:#111;
+}
+#results{
+  background-color:#ee9847;
+  border:3px solid white;
+  border-radius:3px;
+  color:white;
+  font-family:Helvetica;
+  margin-left: 25%;
+  margin-right: 21%;
+  padding:10px;
+}
+#results .wrong{
+  color:#FF0000;
+}
+#results .right{
+  color:#458B00;
+}
+.card1{
+  background: white;
+  margin-left: 40%;
+  border-style: solid;
+  border-width: 2.5px;
+  box-shadow:  1px 3px 8px 3px rgba(0,0,0,0.75);
+  width: 100px;
+  height: 155px;
+}
+.card2{
+  background: white;
+  margin-left: 1%;
+  border-style: solid;
+  border-width: 2.5px;
+  box-shadow:  1px 3px 8px 3px rgba(0,0,0,0.75);
+  width: 60px;
+  height: 105px;
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+}
+.title1{
+  text-align: center;
+  font-size: 20px;
+}
+.total{
+  text-align: center;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #ffffff;
+  width:10%;
+  margin:auto;
+  border: 5px solid #000000;
+  border-radius:10px;
+}
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+  }
+
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+  }
+
+.tg{
+  text-align: center;
+  vertical-align: top;
+  }
+
+/*	th{
+  margin:auto;
+  border: 2px solid black;
+  background-color: lightblue;
+  padding-top:20px black;
+}*/
+.wrapper{
+  width:50%;
+  border: 1px solid #000000;
+
+  margin-left: 5%;
+  margin:5%;
+  padding:1em;
+    border-radius:10px;
+
+}
+.updateDiv{
+  text-align:center;
+  width:30%;
+  border: 5px solid #000000;
+  background: rgb(218, 110, 110);
+  margin-left: auto;
+  margin: auto;
+  padding:1em;
+  border-radius:10px;
+}
+
+#div {
+  text-align:center;
+  width:80%;
+
+  border-radius:10px;
+}
+.card{
+  border-style: solid;
+  border-width: 2.5px;
+  box-shadow:  1px 3px 8px 3px rgba(0,0,0,0.75);
+  width: 100px;
+  height: 155px;
+}
+.StoredResultsDiv{
+  text-align:center;
+  width:30%;
+  border: 5px solid #000000;
+  background: rgb(218, 110, 110);
+  margin-left: auto;
+  margin: auto;
+  padding:1em;
+  border-radius:10px;
+}
+.line{
+  color: black;
+  width: 380px;
+  margin-left: -20px;
+  border: 5px solid #000000;
+
+}
