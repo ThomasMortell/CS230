@@ -1,4 +1,4 @@
-# CS230
+# CS230 - Web Information Processing
 Repository of assignments done throughout CS230
 
 Assignment 1 : 
