@@ -1,0 +1,88 @@
+body {
+	font-family: sans-serif;
+}
+
+.Mainheader {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  font-weight: bold;
+}
+
+.entry {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.wrapper {
+  text-align: left;
+}
+
+#myFunction {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  background-color: #4CAF50;
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}
+
+#btn1 {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+background-color: #00acbf;
+position: absolute;
+text-align: center;
+width: 100px;
+height: 50px;
+}
+
+#btn2 {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+background-color: #069971;
+position: absolute;
+text-align: center;
+width: 100px;
+height: 50px;
+}
+
+#btn3 {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+background-color: #9018bc;
+position: absolute;
+text-align: center;
+width: 100px;
+height: 50px;
+}
+
+#btn4 {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+background-color: #f44274;
+position: absolute;
+text-align: center;
+width: 100px;
+height: 50px;
+}
+
+#btn5 {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+background-color: #f44274;
+position: absolute;
+text-align: center;
+width: 100px;
+height: 50px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/style.css">
+  <head>
+    <title>Assignment 2</title>
+  </head>
+  <body>
+
+<h1 class="Mainheader"><i>Assignment 2 student results table</i></h1>
+
+<table id="Results">
+<thead>
+  <tr>
+    <th class="center" colspan="2">Student details</th>
+    <th class="center" colspan="6">Assignment results</th>
+  </tr>
+  </thead>
+
+  <tr>
+    <th class="center" contenteditable="true">Student Name</th>
+    <th class="center" contenteditable="true">Student ID</th>
+    <th class="center" contenteditable="true">Assignment 1:</th>
+    <th class="center" contenteditable="true">Final Grade</th>
+
+  </tr>
+  <tbody>
+  <tr>
+    <td class="left" contenteditable="true">-</td>
+    <td class="left" contenteditable="true">-</td>
+    <td class="entry" contenteditable="true">-</td>
+	<td class="entry">-</td>
+  </tr>
+
+  </tbody>
+</table>
+
+<div class="wrapper">
+  <br>
+<button id="myFunction">Calculate Final Grades</button>
+<br>
+<br>
+<br>
+<button id="btn1" onClick="addRow();" >Add Row</button>
+<br>
+<br>
+<br>
+<button id="btn2" onClick="addColumn();" >Add Column</button>
+<br>
+<br>
+<br>
+<button id="btn3" onClick="saveTable();">Save Cookies</button>
+<br>
+<br>
+<br>
+<button id="btn4" onClick="LoadTable();">get Cookies</button>
+<br>
+<br>
+<br>
+<button id="btn5" onClick="deleteRow();">Delete Row</button>
+<br>
+<br>
+<br>
+</div>
+<script src="javascript/button.js"></script>
+</body>
+</html>
