@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<title>Assignment5 - 17710551</title>
+		<link rel=stylesheet type="text/css" href="style.css">
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+<!--CREATE AREA-->
+	<body>
+		<div class='updateDiv'>
+			<h1>Assignment 5 - REST API</h1>
+			<h3>Thomas Mortell - 17710551</h3>
+		<h1>CREATE</h1>
+		<form id="formCreate">
+		  Name:<br>
+		  <input placeholder="name" id="name" type="text" name="name" value="">
+		  <br>
+		  URL:<br>
+		  <input placeholder="url" id="url" type="text" name="url" value="">
+		  <br>
+		  Description:<br>
+		  <input placeholder="Description" id="desc" type="text" name="desc" value="">
+		  <br>
+		  <input id="CreateButton" type="submit" value="Submit">
+		</form>
+<br>
+		<div id="create_results"></div>
+<br>
+<!--Retrieve AREA-->
+		<h1>RETRIEVE</h1>
+		<form id="Retrieve">
+			<select id="select" name="selection">
+	      <option>ID</option>
+	      <option>Name</option>
+		  </select>
+	    <br>
+		  <input placeholder="search(exact)" id="identifier" type="text" name="specific" value="">
+		  <br>
+		  <input id="RetrieveButton" type="submit" value="Submit">
+		</form>
+<br>
+						<div  type="json" id="retrieve_results">
+
+</div>
+<br>
+<!--UPDATE AREA-->
+		<h1>UPDATE</h1>
+		<form id="Update">
+			If: <select name="updatecol" id="select1">
+	      <option>ID</option>
+				<option>theDate</option>
+	      <option>name</option>
+	      <option>theDesc</option>
+				<option>URL</option>
+		  </select>
+			<input placeholder="match" id="IDupdate" type="text" name="updatecolvalue" value="">
+			<br>
+			Change: <select id="selects" name="updatecolfinal">
+				<option>name</option>
+				<option>theDesc</option>
+	      <option>URL</option>
+			</select>
+			<input placeholder="update" id="update" type="text" name="finalupdatevalue" value="">
+			<br>
+			<input id="UpdateButton" type="submit" value="Submit">
+		</form>
+<br>
+		<div id="update_results"></div>
+<br>
+<!--DELETE AREA-->
+		<h1>Delete</h1>
+		<form id="Delete">
+		<select name="select2" id="select2">
+			<option>ID</option>
+		  </select>
+		<input placeholder="match" id="IDdel" type="text" name="deleteid" value="">
+			<br>
+			<input id="DeleteButton" type="submit" value="Submit">
+		</form>
+<br>
+		<div id="delete_results"></div>
+
+<br>
+</div>
+
+	</body>
+</html>

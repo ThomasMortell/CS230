@@ -1,0 +1,39 @@
+#create_results {
+  border: 1px solid #000000;
+  border-radius:10px;
+  background-color: rgb(35, 222, 141);
+  width: 30%;
+  margin-left: 35%;
+}
+
+#retrieve_results {
+  border: 1px solid #000000;
+  border-radius:10px;
+  background-color: rgb(35, 222, 141);
+}
+
+#update_results {
+  border: 1px solid #000000;
+  border-radius:10px;
+  background-color: rgb(35, 222, 141);
+  width: 30%;
+  margin-left: 35%;
+}
+
+#delete_results {
+  border: 1px solid #000000;
+  border-radius:10px;
+  background-color: rgb(35, 222, 141);
+  width: 30%;
+  margin-left: 35%;
+}
+.updateDiv{
+  text-align:center;
+  width:80%;
+  border: 5px solid #000000;
+  background: rgb(218, 110, 110);
+  margin-left: auto;
+  margin: auto;
+  padding:1em;
+  border-radius:10px;
+}
